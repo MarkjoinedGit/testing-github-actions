@@ -8,6 +8,6 @@ public class DemoGHActionsController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Spring boot + GitHub Actions";
+        return "Hello from Spring boot + GitHub Actions. Testing pushing now";
     }
 }
